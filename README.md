@@ -1,1 +1,1 @@
-# solving-cinnamon-session-lofin-failed-problem
+# solving-cinnamon-session-login-failed-problem
