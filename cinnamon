@@ -2,7 +2,8 @@
  dbus-launch dconf write /org/mate/terminal/profiles/profile6/visible-name "'onkar'"
  sudo apt-get remove --purge fglrx*
  sudo apt-get remove --purge xserver-xorg-video-ati- xserver-xorg-video-radeon
- sudo appt-get install --reinstall xserver-xorg-core libgl1-mesa-glx libgl1-mesa-dri
+
+
  sudo apt-get install --reinstall xserver-xorg-core libgl1-mesa-glx libgl1-mesa-dri
  sudo rm /etc/X11/xorg.conf.o* /etc/X11/xorg.conf.0* /etc/X11/xorg.conf.f*
  sudo rm -rf /etc/ati
@@ -11,7 +12,7 @@
  gsettings reset-recursively org.cinnamon
  sudo gsettings reset-recursively org.cinnamon
  sudo apt-get remove --purge cinnamon*;sudo apt-get autoclean;sudo apt-get update; sudo apt-get install mint-meta-cinnamon
- sudo apt-get purge nvidia*; sudo apt-get install nvidia-current; sudo dpkg-reconfigure nvidia-current
+ sudo apt-get purge nvidia*; sudo apt-get install nvidia-current; sudodpkg-reconfigure nvidia-current
  apt-get update && apt-get install mint-meta-mate
  sudo apt-get update && apt-get install mint-meta-mate
  sudo su
